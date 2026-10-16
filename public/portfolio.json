@@ -1,12 +1,12 @@
 {
-  "name": "Aarav Sharma",
+  "name": "Simarpreet kaur",
   "role": "Aspiring Full Stack Developer",
   "tagline": "Building modern web experiences with React.",
   "about": "I am a computer science student passionate about web development and solving real-world problems.",
   "goals": "I want to join a product team as a full stack developer and keep learning from experienced engineers.",
   "interests": ["Web development", "Open source", "Problem solving", "UI design"],
   "profileImage": "/profile.png",
-  "email": "aarav@example.com",
+  "email": "simarpreetkaur23456@gmail.com",
   "socials": {
     "github": "https://github.com/",
     "linkedin": "https://linkedin.com/"
@@ -46,7 +46,7 @@
   "education": [
     {
       "degree": "Bachelor of Computer Applications",
-      "college": "ABC College",
+      "college": "GL BAJAJ institute of management",
       "year": "2026",
       "description": "Studying programming and web development."
     }

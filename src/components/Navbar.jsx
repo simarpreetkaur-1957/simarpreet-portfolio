@@ -2,21 +2,15 @@ function Navbar({name}) {
   return (
     <header className="navbar">
       <nav className="container navbar-inner">
-        <a href="#home" className="logo"></a>
+        <a href="#home" className="logo">{name}</a>
 
         <ul className="nav-links">
-          <li><a href ="#home"
-          >Home</a></li>
-          <li><a href ="#about"
-          >About</a></li>
-          <li><a href ="#skills"
-          >Skills</a></li>
-          <li><a href ="#projects"
-          >Projects</a></li>
-          <li><a href ="#education"
-          >Education</a></li>
-          <li><a href ="#contact"
-          >Contact</a></li>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#eduction">Education</a></li>
+          <li><a href="#contact">Contact</a></li>
         </ul>
       </nav>
     </header>

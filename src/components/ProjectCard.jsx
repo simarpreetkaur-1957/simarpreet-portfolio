@@ -6,12 +6,9 @@ function ProjectCard({project}) {
       <div className="project-image">
         {
           project.image ? (
-                    <img src={project.image} alt={project.title} />
-
-
+            <img src={project.image} alt={project.title}/>
           ):(
-            <span classname="image-placeholder">{project.title[0]}</span>
-
+            <span className="image-placeholder">{project.title[0]}</span>
           )
         }
       </div>
@@ -21,18 +18,15 @@ function ProjectCard({project}) {
 
       <div className="badges">
         {
-          project.technologies,map((tech)=>(
-            <span classname="badge small" key={tech}>{tech</span>
-
+          project.technologies.map((tech)=>(
+            <span className="badge small" key={tech}>{tech}</span>
           ))
         }
       </div>
 
       <div className="project-links">
-        <a className="btn btn-ghost btn-small" href={project.Github}><Github size={16} /></a>
-                <a className="btn btn-ghost btn-small" href={project.demo}><Github size={16} /></a>
-
-        <a className="btn btn-primary btn-small"><ExternalLink size={16} /></a>
+        <a className="btn btn-ghost btn-small" href={project.github}><Github size={16} />Github</a>
+        <a className="btn btn-primary btn-small" href={project.demo}><ExternalLink size={16} />Demo</a>
       </div>
     </div>
   );

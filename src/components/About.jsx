@@ -13,11 +13,10 @@ function About({data}) {
           <div className="badges">
             {
               data.interests.map((item)=>(
-                <span classname="badge" key={item}>{item}</span>
-              )
-              )
+                <span className="badge" key={item}>{item}</span>
+              ))
             }
-          </div >
+          </div>
         </div>
       </div>
     </section>

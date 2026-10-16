@@ -9,7 +9,7 @@ function Projects({projects}) {
         <div className="grid project-grid">
           {
             projects.map((project)=>(
-              <ProjectCard key={project.id} project ={project} />
+              <ProjectCard  key={project.id} project = {project}/>
             ))
           }
         </div>
